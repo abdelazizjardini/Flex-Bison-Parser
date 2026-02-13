@@ -1,0 +1,12 @@
+automate NomAutomate { #déclaration de l’automate
+    alphabet = {a, b, c}; #déclarations des alphabets
+    etats = {q0, q1, q2}; #déclaration des états
+    initial = q0; #spécification de l’état initial
+    finaux = {q2}; #spécification des états finaux
+    transitions = { #déclaration des transitions.
+        q0 : a -> q1; #premiére transition
+        q1 : b -> q2; #deuxieme transition
+        q2 : c -> q0; #troisieme transition
+    }; 
+} #fin du bloc de déclaration de l’automate NomAutomate.
+verifier NomAutomate "ab"; #vérification du mot « ab » par l’automate.
