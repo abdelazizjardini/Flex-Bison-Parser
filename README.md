@@ -1,6 +1,6 @@
-# Finite Automaton Language Compiler
+# Finite AUTOMATE Language Compiler
 
-A complete compiler implementation for defining and verifying finite state automata using a custom domain-specific language. Built with Flex (lexical analyzer) and Bison (parser), with semantic analysis and automaton execution capabilities.
+A complete compiler implementation for defining and verifying finite state automate using a custom domain-specific language. Built with Flex (lexical analyzer) and Bison (parser), with semantic analysis and automaton execution capabilities.
 
 ## 📋 Table of Contents
 
@@ -18,12 +18,12 @@ A complete compiler implementation for defining and verifying finite state autom
 
 ## 🎯 Overview
 
-This project implements a compiler for a specialized language designed to define and verify finite state automata (FSA). The compiler performs lexical analysis, syntax parsing, semantic validation, and automaton execution to verify whether given strings are accepted by the defined automaton.
+This project implements a compiler for a specialized language designed to define and verify finite state AUTOMATE (FSA). The compiler performs lexical analysis, syntax parsing, semantic validation, and automaton execution to verify whether given strings are accepted by the defined automaton.
 
 **Key Capabilities:**
-- Define automata with custom alphabets, states, and transitions
+- Define AUTOMATE with custom alphabets, states, and transitions
 - Validate automaton definitions (semantic checks)
-- Execute automata to verify if strings are accepted or rejected
+- Execute AUTOMATE to verify if strings are accepted or rejected
 - Comprehensive error reporting with line numbers
 
 ## ✨ Features
@@ -370,7 +370,7 @@ Project: Automaton Language Compiler (elgh_jard_proj)
 
 - Built using GNU Flex and Bison
 - Implements classic compiler design patterns
-- Follows formal automata theory principles
+- Follows formal AUTOMATE theory principles
 
 ---
 
